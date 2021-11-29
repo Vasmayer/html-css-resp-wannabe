@@ -10,7 +10,15 @@
         width: 100%;
         float: none;
         margin-top: 30px;
+        font-size: 30px;
     }
+
+    #lezioni .row>.left h3,
+    #lezioni .row>.right h3
+     {
+          font-size: 35px;
+          margin: 0;
+     }
 
     #lezioni .row
     {
@@ -33,7 +41,18 @@
         float: none;
         width: 100%;
         margin-top: 30px;
+        font-size: 30px;
     }
+
+    #steps .row>.left h3,
+    #steps .row>.central h3,
+    #steps .row>.right h3
+    { 
+        font-size: 35px;
+        margin: 0;  
+    }
+
+   
 
     #steps .row
     {
@@ -48,9 +67,36 @@
 
       #why .row {
         background-color: #f2f2cd;
+        margin: 0;
       }
 
       #why .row h1 {
        padding-top: 30px;
       }
+      body
+      {
+            margin:0;
+      }
+
+      #why .row>.first hr,
+      #why .row>.second hr,
+      #why .row>.third hr
+       {
+            border:1px solid rgb(71, 71, 71);
+            margin-left: 50px;
+            margin-right: 50px;
+       }
+      #why .row>.first,
+      #why .row>.second,
+      #why .row>.third
+       {
+            font-size: 30px;
+       }
+      #why .row>.first h3,
+      #why .row>.second h3,
+      #why .row>.third h3
+       {
+            font-size: 35px;
+            margin: 0;
+       }
   }
